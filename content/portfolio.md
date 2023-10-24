@@ -8,9 +8,19 @@
 
 :::PortfolioEntry
 
+## [audiomath](https://peruibeloko.github.io/audiomath/)
+
+Calculadora de conversão de medidas de áudio. Oferece frequência, nota, período, comprimento de onda e contagem de samples digitais
+
+- [Vue](https://vuejs.org/)
+
+:::
+
+:::PortfolioEntry
+
 ## [keylogger](https://peruibeloko.github.io/keylogger/)
 
-Uma ferramenta para visualizar os dados de eventos do teclado de forma simples
+Visualização de eventos do teclado de forma simples
 
 - [KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 
@@ -20,10 +30,10 @@ Uma ferramenta para visualizar os dados de eventos do teclado de forma simples
 
 ## [Time Calculator](https://peruibeloko.github.io/time-calculator/)
 
-Uma calculadora de tempo! Utiliza o objeto experimental Temporal para manipular registros de tempo e realizar aritmética simples com eles, como somar dois intervalos de tempo ou subtraír 43 minutos de 1h e 25min, por exemplo.
+Realize operações aritméticas simples entre intervalos de tempo, como somar dois intervalos de tempo ou subtraír 43 minutos de 1h e 25min, por exemplo. Usa o novo objeto experimental para manipulação de tempo e data, o Temporal.
 
 - [Temporal](https://github.com/tc39/proposal-temporal)
-- [Vue 3](https://github.com/vuejs/vue)
+- [Vue](https://vuejs.org/)
 
 :::
 
@@ -31,10 +41,10 @@ Uma calculadora de tempo! Utiliza o objeto experimental Temporal para manipular 
 
 ## [typewriter](https://github.com/Peruibeloko/typewriter/)
 
-Um CMS headless minimalista para gerenciamento de blogs simples. Oferece um punhado de endpoints REST para realizar CRUD de posts escritos em Markdown, que são armazenados num banco MongoDB. Ele que está por trás do blog desse site! Inclui um sistema de autenticação que eu pretendo separar no futuro.
+CMS headless minimalista para blogs simples. Oferece um punhado de endpoints REST para realizar CRUD de posts escritos em Markdown, que são armazenados num banco MongoDB. Inclui um sistema de autenticação baseado em allowlist + TOTP que eu pretendo separar no futuro.
 
-- [Express](https://github.com/expressjs/express)
-- [Mongoose](https://github.com/Automattic/mongoose)
+- [Express](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
 - [Marked](https://github.com/markedjs/marked)
 
 :::
@@ -43,11 +53,11 @@ Um CMS headless minimalista para gerenciamento de blogs simples. Oferece um punh
 
 ## [Q&A Bot](https://github.com/Peruibeloko/qnabot/)
 
-O conjunto de um servidor Express que abriga um bot de Discord, e um aplicativo Vue que exibe as perguntas enviadas no canal configurado. Atualiza em tempo real usando WebScokets e oferece ordenação automática por votos!
+Bot para realizar Q&As no Discord. Consiste em um web app escrito em Vue que mostra e ordena as perguntas do canal e um backend que roda no Deno Deploy.
 
-- [Express](https://github.com/expressjs/express)
-- [discord.js](https://github.com/discordjs/discord.js)
-- [Vue 3](https://github.com/vuejs/vue)
+- [Deno](https://deno.land/)
+- [Harmony](https://harmony.mod.land/)
+- [Vue](https://vuejs.org/)
 - [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
 :::
