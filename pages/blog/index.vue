@@ -5,4 +5,4 @@
   </header>
 </template>
 
-<style src="" />
+<style src="~/assets/css/blog.scss" />
