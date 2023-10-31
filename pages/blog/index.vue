@@ -28,7 +28,7 @@ const query: QueryBuilderParams = {
         <template #default="{ list }">
           <ul class="post-list">
             <li v-for="post in list" :key="post._path">
-              <a :href="post._path">{{ post.title }}</a>
+              <a :href="post._path?.replace('blog', 'blog/post')">{{ post.title }}</a>
               <time :datetime="post.date">{{
                 `${new Date(post.date).toLocaleDateString("pt-BR", {
                   year: "numeric",
