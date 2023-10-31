@@ -1,12 +1,4 @@
-::PortfolioPage
-
-#header
-
-# Portfolio
-
-#content
-
-:::PortfolioEntry
+::PortfolioEntry
 
 ## [audiomath](https://peruibeloko.github.io/audiomath/)
 
@@ -14,9 +6,9 @@ Calculadora de conversão de medidas de áudio. Oferece frequência, nota, perí
 
 - [Vue](https://vuejs.org/)
 
-:::
+::
 
-:::PortfolioEntry
+::PortfolioEntry
 
 ## [keylogger](https://peruibeloko.github.io/keylogger/)
 
@@ -24,9 +16,9 @@ Visualização de eventos do teclado de forma simples
 
 - [KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 
-:::
+::
 
-:::PortfolioEntry
+::PortfolioEntry
 
 ## [Time Calculator](https://peruibeloko.github.io/time-calculator/)
 
@@ -35,9 +27,9 @@ Realize operações aritméticas simples entre intervalos de tempo, como somar d
 - [Temporal](https://github.com/tc39/proposal-temporal)
 - [Vue](https://vuejs.org/)
 
-:::
+::
 
-:::PortfolioEntry
+::PortfolioEntry
 
 ## [typewriter](https://github.com/Peruibeloko/typewriter/)
 
@@ -47,9 +39,9 @@ CMS headless minimalista para blogs simples. Oferece um punhado de endpoints RES
 - [Mongoose](https://mongoosejs.com/)
 - [Marked](https://github.com/markedjs/marked)
 
-:::
+::
 
-:::PortfolioEntry
+::PortfolioEntry
 
 ## [Q&A Bot](https://github.com/Peruibeloko/qnabot/)
 
@@ -60,7 +52,4 @@ Bot para realizar Q&As no Discord. Consiste em um web app escrito em Vue que mos
 - [Vue](https://vuejs.org/)
 - [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
-:::
-
-#footer
-[Home](/)
+::
