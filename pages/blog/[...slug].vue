@@ -1,9 +1,8 @@
 <script>
-// parse slug into [year, month, title]
-
-// tenta buscar post no slug atual /ano/mes/titulo
-// caso não consiga, tenta listar posts do /ano/mes
-// caso não consiga, tenta listar meses do /ano
+// TODO
+// 1. incluir título
+// 2. listagem por ano
+// 3. listagem por mês + paginação
 </script>
 <template>
   <div id="post">
