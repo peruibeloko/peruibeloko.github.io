@@ -3,6 +3,10 @@ const { currentRoute } = useRouter();
 const { data } = await useAsyncData("blog_post", () =>
   queryContent(`/blog/${currentRoute.value.params.postId}`).findOne()
 );
+
+definePageMeta({
+  name: 'Blog Post'
+})
 </script>
 <template>
   <div id="post">

@@ -2,6 +2,10 @@
 useHead({
   title: 'Carlinhos'
 })
+
+definePageMeta({
+  name: 'Homepage'
+})
 </script>
 
 <template>

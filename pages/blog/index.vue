@@ -5,6 +5,10 @@ useHead({
   title: 'Blag'
 })
 
+definePageMeta({
+  name: 'Blog Home'
+})
+
 const page = ref(1);
 const size = ref(5);
 const count = await queryContent("blog").count();
@@ -28,11 +32,11 @@ watch([page, size], ([newPage, newSize]) => {
   <div id="blog">
     <header>
       <h1>Blag</h1>
+      <NuxtLink to="/">Home</NuxtLink>
       <h2>
         Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar
         besteira
       </h2>
-      <NuxtLink to="/">Home</NuxtLink>
     </header>
     <main>
       <ContentList :query="query">

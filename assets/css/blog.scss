@@ -15,6 +15,7 @@
     font-family: var(--sans);
     height: fit-content;
     margin-right: 2rem;
+    gap: 1rem;
 
     h1 {
       font-size: 3rem;
@@ -22,11 +23,31 @@
       padding-left: 1rem;
       font-family: var(--slab);
     }
-
+    
     h2 {
-      margin-top: 1rem;
       color: var(--gray);
       font-size: 0.75rem;
+    }
+    
+    a {
+      color: var(--gray);
+      font-size: 1rem;
+      font-family: var(--slab);
+      font-weight: bold;
+      transition-duration: 200ms;
+      
+      &::before {
+        font-weight: bold;
+        content: '> ';
+      }
+
+      &:hover {
+        color: var(--foreground);
+        
+        &::before {
+          color: var(--main);
+        }
+      }
     }
   }
 
