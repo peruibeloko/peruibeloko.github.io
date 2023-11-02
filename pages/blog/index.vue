@@ -1,17 +1,21 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
 
-// listagem dos últimos posts, oferece paginação e lê query parameters
+const page = ref(1);
+const size = ref(5);
+const count = await queryContent("blog").count();
 
-const query: QueryBuilderParams = {
-  path: "/blog",
-  sort: [
-    {
-      date: -1,
-    },
-  ],
-  limit: 5,
-};
+const query = reactive<QueryBuilderParams>({
+  path: "blog",
+  skip: (page.value - 1) * size.value,
+  limit: size.value,
+  sort: [{ date: -1 }]
+});
+
+watch([page, size], ([newPage, newSize]) => {
+  query.skip = (newPage - 1) * newSize;
+  query.limit = newSize;
+});
 </script>
 
 <template>
@@ -19,8 +23,8 @@ const query: QueryBuilderParams = {
     <header>
       <h1>Blag</h1>
       <h2>
-        Eu escrevo sobre tópicos sortidos. Desconfie de tudo, não duvide de
-        nada.
+        Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar
+        besteira
       </h2>
     </header>
     <main>
@@ -28,14 +32,15 @@ const query: QueryBuilderParams = {
         <template #default="{ list }">
           <ul class="post-list">
             <li v-for="post in list" :key="post._path">
-              <a :href="post._path?.replace('blog', 'blog/post')">{{ post.title }}</a>
               <time :datetime="post.date">{{
                 `${new Date(post.date).toLocaleDateString("pt-BR", {
                   year: "numeric",
                   month: "long",
                   day: "numeric",
+                  timeZone: "UTC"
                 })}`
               }}</time>
+              <a :href="post._path?.replace('blog', 'blog/post')">{{ post.title }}</a>
             </li>
           </ul>
         </template>
@@ -43,6 +48,14 @@ const query: QueryBuilderParams = {
           <p>Não tem nenhum post ainda!</p>
         </template>
       </ContentList>
+      <BlogPagination
+        :current-page="page"
+        :page-size="size"
+        :post-count="count"
+        @prev="page--"
+        @next="page++"
+        @navigate="dest => (page = dest)"
+      />
     </main>
   </div>
 </template>

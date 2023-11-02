@@ -1,8 +1,9 @@
 ---
-title: JavaScript — Presente, Passado e Futuro
 description: Transcrição da palestra feita durante o Bragança Tech Day de 2022
 date: 2023-05-21
 ---
+
+# JavaScript — Presente, Passado e Futuro
 
 ## Quem sou eu?
 
