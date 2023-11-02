@@ -2,13 +2,11 @@
   <div id="portfolio">
     <header>
       <h1>Portfolio</h1>
+      <NuxtLink to="/">Home</NuxtLink>
     </header>
     <main>
       <ContentDoc />
     </main>
-    <footer>
-      <a href="/">Home</a>
-    </footer>
   </div>
 </template>
 

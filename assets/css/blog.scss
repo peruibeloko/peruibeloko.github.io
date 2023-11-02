@@ -37,6 +37,7 @@
       transition-duration: 200ms;
       
       &::before {
+        color: var(--gray);
         font-weight: bold;
         content: '> ';
       }

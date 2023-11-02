@@ -6,7 +6,7 @@
 
 <style lang="scss">
 .entry-card {
-  width: 35rem;
+  width: 25rem;
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -14,6 +14,7 @@
   border: 1px solid var(--gray);
   border-radius: 1rem;
   background-color: var(--black);
+  gap: 1rem;
 
   &:nth-child(odd) {
     transform: translateX(-30%);
@@ -26,10 +27,9 @@
   h2 {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
     padding-left: 0.5rem;
 
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: var(--slab);
     font-weight: normal;
     border-left: 5px solid var(--main);
@@ -50,10 +50,10 @@
   }
 
   p {
+    font-size: 0.75rem;
     font-family: var(--sans);
     line-height: 1.3rem;
     margin: 0 1rem;
-    margin-bottom: 1rem;
   }
 
   ul {
@@ -65,7 +65,7 @@
 
       a {
         cursor: pointer;
-        font-size: 0.75rem;
+        font-size: 0.5rem;
         font-family: var(--sans);
         margin: 0 0.25rem;
         padding: 0.25rem 0.5rem;
