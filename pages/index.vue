@@ -1,3 +1,9 @@
+<script setup>
+useHead({
+  title: 'Carlinhos'
+})
+</script>
+
 <template>
   <div id="home">
     <header>

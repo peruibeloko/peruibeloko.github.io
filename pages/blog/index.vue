@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
 
+useHead({
+  title: 'Blag'
+})
+
 const page = ref(1);
 const size = ref(5);
 const count = await queryContent("blog").count();
+
+watch(size, () => (page.value = 1));
 
 const query = reactive<QueryBuilderParams>({
   path: "blog",
@@ -26,6 +32,7 @@ watch([page, size], ([newPage, newSize]) => {
         Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar
         besteira
       </h2>
+      <NuxtLink to="/">Home</NuxtLink>
     </header>
     <main>
       <ContentList :query="query">
@@ -55,6 +62,7 @@ watch([page, size], ([newPage, newSize]) => {
         @prev="page--"
         @next="page++"
         @navigate="dest => (page = dest)"
+        @size="newSize => (size = newSize)"
       />
     </main>
   </div>
