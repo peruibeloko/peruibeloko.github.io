@@ -6,8 +6,6 @@ useHead({
 definePageMeta({
   name: 'Homepage'
 })
-
-// separar em duas colunas ao invés de duas linhas
 </script>
 
 <template>

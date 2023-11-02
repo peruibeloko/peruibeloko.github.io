@@ -121,36 +121,37 @@
         }
       }
     }
-  }
 
-  main {
-    align-items: center;
-    
-    section {
+    main {
       align-items: center;
-      gap: 0.5rem;
-      
-      h1 {
-        padding: 0;
-        border-left: none;
-        border-bottom: 3px solid var(--main);
+
+      section {
+        align-items: center;
+        gap: 0.5rem;
+
+        h1 {
+          padding: 0;
+          border-left: none;
+          border-bottom: 3px solid var(--main);
+        }
+
+        span {
+          padding: 0;
+          border: none;
+          color: var(--gray);
+          font-family: var(--sans);
+          font-weight: normal;
+        }
       }
 
-      span {
-        padding: 0;
-        border: none;
-        color: var(--gray);
-        font-family: var(--sans);
-        font-weight: normal;
-      }
-    }
+      article {
+        width: 100%;
 
-    article {
-      width: 100%;
-
-      p {
-        font-size: 0.8rem;
+        p {
+          font-size: 0.8rem;
+        }
       }
     }
   }
+
 }
