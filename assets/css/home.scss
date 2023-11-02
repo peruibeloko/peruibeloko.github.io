@@ -50,7 +50,7 @@
         }
 
         a {
-          border-bottom: 3px solid var(--main);
+          border-bottom: 2px solid var(--foreground);
         }
       }
     }
@@ -60,7 +60,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: flex-start;
 
     img {
@@ -75,18 +75,18 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-end;
-      gap: 2rem;
+      gap: 0.25rem;
 
       a {
         font-family: var(--sans);
         font-size: 1.5rem;
         font-family: var(--slab);
 
-        &::before {
-          content: '>';
+        &::after {
+          content: '<';
           color: var(--main);
           font-family: var(--slab);
-          margin-right: 0.5rem;
+          margin-left: 0.5rem;
         }
       }
     }
