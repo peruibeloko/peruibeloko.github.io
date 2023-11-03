@@ -26,6 +26,8 @@ watch([page, size], ([newPage, newSize]) => {
   query.skip = (newPage - 1) * newSize;
   query.limit = newSize;
 });
+
+// TODO Mobile layout
 </script>
 
 <template>

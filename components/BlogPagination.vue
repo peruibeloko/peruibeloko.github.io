@@ -123,8 +123,10 @@ const handleSize = (size: number) => emit("size", size);
 
 aside {
   display: flex;
-  align-items: flex-end;
-  gap: 2rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 select {
@@ -160,7 +162,7 @@ nav {
   font-family: var(--mono);
   font-size: 0.75rem;
   padding: 0.25rem;
-  width: 1.25rem;
+  width: 100%;
   border: 1px solid var(--bg3);
   color: var(--bg3);
   border-radius: 0.25rem;
@@ -182,5 +184,15 @@ nav {
   border: none;
   cursor: default;
   font-size: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  nav {
+    margin-top: 3rem;
+    grid-template-columns: repeat(2, 2rem) 2.5rem repeat(3, 2rem) 2.5rem repeat(2, 2rem);
+  }
+  .nav-button, select {
+    font-size: 1.25rem;
+  }
 }
 </style>

@@ -100,6 +100,10 @@
     aside {
       align-items: center;
 
+      img {
+        width: 15rem;
+      }
+
       nav {
         width: 100%;
         margin-bottom: 2rem;
@@ -114,9 +118,9 @@
             margin-bottom: 0rem;
           }
 
-          &::before {
+          &::after {
             content: '';
-            margin-right: 0;
+            margin-left: 0;
           }
         }
       }
@@ -130,12 +134,14 @@
         gap: 0.5rem;
 
         h1 {
+          font-size: 2.5rem;
           padding: 0;
           border-left: none;
           border-bottom: 3px solid var(--main);
         }
-
+        
         span {
+          font-size: 1rem;
           padding: 0;
           border: none;
           color: var(--gray);
@@ -148,7 +154,7 @@
         width: 100%;
 
         p {
-          font-size: 0.8rem;
+          font-size: 1rem;
         }
       }
     }

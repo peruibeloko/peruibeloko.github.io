@@ -38,7 +38,7 @@
       position: relative;
       top: -15%;
       left: 0.25rem;
-      content: '🔗';
+      content: "🔗";
       font-size: small;
       opacity: 0.3;
       transition-duration: 200ms;
@@ -84,16 +84,26 @@
   }
 
   @media (max-width: 768px) {
-    & {
-      width: 100%;
-      border-left: none;
-      border-right: none;
-      border-radius: 0;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
 
-      &:nth-child(odd),
-      &:nth-child(even) {
-        transform: none;
-      }
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    ul li a {
+      font-size: 0.65rem;
+    }
+
+    &:nth-child(odd),
+    &:nth-child(even) {
+      transform: none;
     }
   }
 }
