@@ -7,5 +7,16 @@ export default defineNuxtConfig({
       theme: 'one-dark-pro',
       preload: ['typescript', 'javascript']
     }
+  },
+  app: {
+    head: {
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: 'https://emoji.gg/assets/emoji/thonk.png'
+        }
+      ]
+    }
   }
 });

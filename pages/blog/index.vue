@@ -27,7 +27,6 @@ watch([page, size], ([newPage, newSize]) => {
   query.limit = newSize;
 });
 
-// TODO Mobile layout
 </script>
 
 <template>
@@ -67,8 +66,8 @@ watch([page, size], ([newPage, newSize]) => {
         :post-count="count"
         @prev="page--"
         @next="page++"
-        @navigate="dest => (page = dest)"
-        @size="newSize => (size = newSize)"
+        @navigate="(dest: number) => (page = dest)"
+        @size="(newSize: number) => (size = newSize)"
       />
     </main>
   </div>
