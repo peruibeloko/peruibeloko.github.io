@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', "@nuxt/image"],
   css: ['~/assets/css/theme.css'],
   content: {
     highlight: {
@@ -16,7 +16,10 @@ export default defineNuxtConfig({
           type: 'image/png',
           href: 'https://emoji.gg/assets/emoji/thonk.png'
         }
-      ]
+      ],
+      htmlAttrs: {
+        lang: 'pt-BR'
+      }
     }
   }
 });
