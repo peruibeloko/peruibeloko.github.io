@@ -12,14 +12,11 @@ definePageMeta({
   <div id="post">
     <header>
       <h1>{{ data?.title }}</h1>
+      <NuxtLink to="/blog">Voltar</NuxtLink>
     </header>
     <main>
       <ContentDoc tag="article" :path="`/blog/${currentRoute.params.postId}`" />
     </main>
-    <hr />
-    <footer>
-      <button type="button" @click="$router.back()">Voltar</button>
-    </footer>
   </div>
 </template>
 

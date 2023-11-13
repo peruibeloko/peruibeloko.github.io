@@ -29,7 +29,7 @@
     align-items: center;
     padding-left: 0.5rem;
 
-    font-size: 1.25rem;
+    font-size: var(--size__big);
     font-family: var(--slab);
     font-weight: normal;
     border-left: 5px solid var(--main);
@@ -50,10 +50,11 @@
   }
 
   p {
-    font-size: 0.75rem;
-    font-family: var(--sans);
-    line-height: 1.3rem;
-    margin: 0 1rem;
+    font-size: var(--size__base);
+    font-family: var(--serif);
+    line-height: var(--line-height);
+    margin: 0 2rem;
+    margin-bottom: 0.5rem;
   }
 
   ul {
@@ -65,7 +66,7 @@
 
       a {
         cursor: pointer;
-        font-size: 0.5rem;
+        font-size: var(--size__small);
         font-family: var(--sans);
         margin: 0 0.25rem;
         padding: 0.25rem 0.5rem;

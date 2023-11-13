@@ -26,12 +26,12 @@
 
     h2 {
       color: var(--gray);
-      font-size: 0.75rem;
+      font-size: var(--size__base);
     }
 
     a {
       color: var(--gray);
-      font-size: 1rem;
+      font-size: var(--size__big);
       font-family: var(--slab);
       font-weight: bold;
       transition-duration: 200ms;
@@ -72,13 +72,13 @@
       font-family: var(--sans);
 
       a {
-        font-size: 1rem;
+        font-size: var(--size__base);
         font-family: var(--slab);
       }
 
       time {
         width: 25%;
-        font-size: 0.75rem;
+        font-size: var(--size__small);
         color: var(--gray);
       }
     }
