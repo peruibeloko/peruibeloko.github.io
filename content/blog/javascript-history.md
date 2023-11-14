@@ -5,6 +5,8 @@ date: 2023-05-21
 
 # JavaScript — Presente, Passado e Futuro
 
+Esse texto é a transcrição da minha palestra à FATEC de Bragança Paulista, adaptada para o formato do blog para facilitar a leitura. Você pode assistir a gravação da palestra [aqui](https://youtu.be/Bf471dYOdlw?t=10)!
+
 ## Quem sou eu?
 
 - Carlos Mendonça, 22 anos
