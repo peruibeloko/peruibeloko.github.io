@@ -49,9 +49,9 @@
   --foreground: var(--white);
   --background: var(--black);
 
-  --size__base: 0.9rem;
+  --size__base: 1rem;
   --size__small: calc(0.8 * var(--size__base));
-  --size__big: calc(1.5 * var(--size__base));
+  --size__big: calc(1.6 * var(--size__base));
   --size__title: calc(2.5 * var(--size__base));
   --line-height: 1.6rem;
 }

@@ -64,6 +64,7 @@
     }
 
     li {
+      gap: 1rem;
       border-left: 5px solid var(--main);
       padding: 0.5rem;
       background: linear-gradient(90deg, var(--black) 0%, transparent 50%);
