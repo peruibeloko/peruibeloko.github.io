@@ -19,6 +19,7 @@ div#post {
     h1 {
       font-family: var(--slab);
       font-size: var(--size__title);
+      font-weight: 600;
       border-left: 10px solid var(--main);
       padding-left: 1rem;
     }
@@ -52,14 +53,17 @@ div#post {
     font-family: var(--serif);
 
     h2 {
-      border-bottom: 5px solid var(--main);
+      text-decoration: underline;
+      text-decoration-color: var(--main);
+      text-decoration-thickness: 5px;
       padding-bottom: 0.5rem;
-      margin-top: 4rem;
-      margin-bottom: 2rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
 
       a {
         font-family: var(--slab);
         font-size: var(--size__title);
+        font-weight: 600;
       }
 
       &:first-of-type {
@@ -73,6 +77,7 @@ div#post {
       a {
         font-family: var(--slab);
         font-size: var(--size__big);
+        font-weight: 600;
 
         &::before {
           content: "> ";
@@ -90,21 +95,24 @@ div#post {
       a {
         font-family: var(--slab);
         font-size: var(--size__big);
+        font-weight: 600;
       }
     }
 
     & > p {
-      margin: 2rem 0;
+      margin-bottom: 2rem;
       line-height: var(--line-height);
       font-size: var(--size__base);
       font-weight: lighter;
-      
+      text-align: justify;
+      hyphens: auto;
+
       &:first-of-type {
         margin-top: 0;
       }
-
-      strong {
-        font-family: var(--slab);
+      
+      & + p {
+        margin-top: 2rem;
       }
 
       & > a {
@@ -114,6 +122,18 @@ div#post {
           color: var(--yellow);
         }
       }
+
+      & > strong {
+        font-weight: bold;
+      }
+
+      & > sup {
+        & > span {
+          color: var(--orange);
+        }
+        
+        cursor: pointer;
+      }
     }
 
     pre {
@@ -122,6 +142,7 @@ div#post {
       border-radius: 0.5rem;
       max-width: 40rem;
       margin: 0 auto;
+      margin-bottom: 2rem;
     }
 
     ol li {
@@ -138,7 +159,8 @@ div#post {
       margin: 0.75rem 0;
       line-height: var(--line-height);
       font-size: var(--size__base);
-      // font-weight: lighter;
+      font-weight: lighter;
+      hyphens: auto;
 
       &::marker {
         font-family: var(--mono), monospace;
@@ -196,6 +218,7 @@ div#post {
         text-align: center;
         line-height: var(--line-height);
         font-size: var(--size__base);
+        hyphens: auto;
       }
 
       &::before,

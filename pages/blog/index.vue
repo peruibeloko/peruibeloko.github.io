@@ -47,7 +47,7 @@ watch([page, size], ([newPage, newSize]) => {
               <time :datetime="post.date">{{
                 `${new Date(post.date).toLocaleDateString("pt-BR", {
                   year: "numeric",
-                  month: "long",
+                  month: "numeric",
                   day: "numeric",
                   timeZone: "UTC"
                 })}`

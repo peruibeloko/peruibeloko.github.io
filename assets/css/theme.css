@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@700&display=swap');
 
 :root {
   --bg_h: #1d2021;
@@ -36,9 +36,9 @@
 
 :root {
   --mono: 'JetBrains Mono', monospace;
-  --sans: 'Noto Sans', sans-serif;
+  --sans: 'Open Sans', sans-serif;
   --serif: 'Noto Serif', serif;
-  --slab: 'Roboto Slab', serif;
+  --slab: 'Poppins', serif;
 
   --black: var(--bg_h);
   --dark_gray: var(--bg);

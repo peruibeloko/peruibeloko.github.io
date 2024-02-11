@@ -17,6 +17,7 @@
       h1 {
         font-family: var(--slab);
         font-size: var(--size__title);
+        font-weight: 600;
         border-left: 5px solid var(--main);
         padding-left: 0.5rem;
       }
@@ -36,9 +37,12 @@
       border-radius: 1rem;
 
       p {
-        font-family: var(--serif);
+        font-family: var(--sans);
         line-height: var(--line-height);
         font-size: var(--size__base);
+        font-weight: 300;
+        text-align: justify;
+        hyphens: auto;
         margin: 1rem 0;
 
         &:first-of-type {
@@ -50,7 +54,7 @@
         }
 
         a {
-          border-bottom: 2px solid var(--foreground);
+          text-decoration: underline 2px var(--foreground);
         }
       }
     }
@@ -78,15 +82,16 @@
       gap: 0.25rem;
 
       a {
-        font-family: var(--sans);
-        font-size: var(--size__big);
         font-family: var(--slab);
+        font-size: var(--size__big);
+        font-weight: 600;
 
         &::after {
           content: '<';
           color: var(--main);
           font-family: var(--slab);
           margin-left: 0.5rem;
+          font-weight: 600;
         }
       }
     }
@@ -112,7 +117,7 @@
         justify-content: space-evenly;
 
         a {
-          border-bottom: 3px solid var(--main);
+          text-decoration: underline 3px var(--main);
 
           &:first-of-type {
             margin-bottom: 0rem;
@@ -131,13 +136,11 @@
 
       section {
         align-items: center;
-        gap: 0.5rem;
 
         h1 {
           font-size: 2.5rem;
           padding: 0;
           border-left: none;
-          border-bottom: 3px solid var(--main);
         }
         
         span {

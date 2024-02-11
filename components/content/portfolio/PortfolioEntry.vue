@@ -6,22 +6,21 @@
 
 <style lang="scss">
 .entry-card {
-  width: 25rem;
+  width: 30rem;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
-  padding: 1rem;
-  border: 1px solid var(--gray);
+  margin-top: 4rem;
+  padding: 2rem;
   border-radius: 1rem;
   background-color: var(--black);
   gap: 1rem;
 
   &:nth-child(odd) {
-    transform: translateX(-30%);
+    transform: translateX(-40%);
   }
 
   &:nth-child(even) {
-    transform: translateX(30%);
+    transform: translateX(40%);
   }
 
   h2 {
@@ -31,35 +30,38 @@
 
     font-size: var(--size__big);
     font-family: var(--slab);
-    font-weight: normal;
     border-left: 5px solid var(--main);
 
+    a {
+      font-weight: 600;
+    }
+
     &::after {
-      position: relative;
-      top: -15%;
-      left: 0.25rem;
-      content: "🔗";
+      content: "(repo link)";
       font-size: small;
-      opacity: 0.3;
+      margin-left: 0.5rem;
+      opacity: 0;
       transition-duration: 200ms;
     }
 
     &:hover::after {
-      opacity: 1;
+      opacity: 0.4;
     }
   }
 
   p {
     font-size: var(--size__base);
-    font-family: var(--serif);
+    font-family: var(--sans);
     line-height: var(--line-height);
-    margin: 0 2rem;
-    margin-bottom: 0.5rem;
+    font-weight: 300;
+    text-align: justify;
+    hyphens: auto;
   }
 
   ul {
     align-self: flex-end;
     display: flex;
+    margin-top: 0.25rem;
 
     li {
       list-style: none;
@@ -77,6 +79,10 @@
         transition-duration: 200ms;
       }
 
+      &:last-of-type a {
+        margin-right: 0;
+      }
+
       &:hover a {
         background-color: var(--white);
         color: var(--black);
@@ -85,10 +91,14 @@
   }
 
   @media (max-width: 768px) {
-    width: 100%;
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+
+    &:nth-child(odd),
+    &:nth-child(even) {
+      transform: none;
+    }
 
     h2 {
       font-size: 1.5rem;
@@ -96,15 +106,11 @@
 
     p {
       font-size: 1rem;
+      margin: 0;
     }
 
     ul li a {
       font-size: 0.65rem;
-    }
-
-    &:nth-child(odd),
-    &:nth-child(even) {
-      transform: none;
     }
   }
 }

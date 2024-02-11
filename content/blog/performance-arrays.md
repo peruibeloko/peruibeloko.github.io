@@ -25,9 +25,9 @@ const result = arr
 
 Por que eu considero isso útil? Porque é uma construção que eu uso muito frequentemente.
 
-Quando me deparo com um problema normalmente penso primeiro sobre quais informações são relevantes para sua solução, e depois sobre qual sua melhor disposição, e isso costuma envolver Estruturas de Dados, Algoritmos e Tipagem[^1].
+Quando me deparo com um problema normalmente penso primeiro sobre quais informações são relevantes para sua solução, e depois sobre qual sua melhor disposição, e isso costuma envolver Estruturas de Dados, Algoritmos e Tipagem[^typescript].
 
-[^1]: TypeScript é fenomenal, mas isso é tópico pra outro dia
+[^typescript]: TypeScript é fenomenal, mas isso é tópico pra outro dia
 
 Mas esse não é o motivo desse post, o que vou abordar hoje é a **performance** dessas operações encadeadas. Importante lembrar que, por bem ou por mal, a maior parte do que eu faço hoje em dia está inserido na web e não necessariamente na parte que lida com quantidades massivas de dados. Isso torna a performance dessas operações não tão relevante, mas não totalmente obsoleta. Estamos falando de no máximo centenas de itens em uma lista no pior dos casos, não alguns milhões!
 

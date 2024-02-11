@@ -138,6 +138,7 @@ select {
   padding: 0.25rem;
   border: 1px solid var(--bg3);
   color: var(--bg3);
+  background-color: var(--bg);
   border-radius: 0.25rem;
   transition-duration: 200ms;
 }
