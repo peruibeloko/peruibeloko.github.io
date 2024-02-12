@@ -49,26 +49,28 @@ div#post {
 
   main > article {
     background-color: var(--black);
+    border-radius: 1rem;
     padding: 2rem;
-    font-family: var(--serif);
+    margin-bottom: 4rem;
+
 
     h2 {
       text-decoration: underline;
       text-decoration-color: var(--main);
       text-decoration-thickness: 5px;
       padding-bottom: 0.5rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
       margin-bottom: 1rem;
 
       a {
         font-family: var(--slab);
-        font-size: var(--size__title);
+        font-size: var(--size__bigger);
         font-weight: 600;
       }
+    }
 
-      &:first-of-type {
-        margin-top: 0;
-      }
+    & > h2 {
+      margin-top: 0;
     }
 
     h3 {
@@ -76,7 +78,7 @@ div#post {
 
       a {
         font-family: var(--slab);
-        font-size: var(--size__big);
+        font-size: var(--size__bigger);
         font-weight: 600;
 
         &::before {
@@ -94,13 +96,14 @@ div#post {
 
       a {
         font-family: var(--slab);
-        font-size: var(--size__big);
+        font-size: var(--size__bigger);
         font-weight: 600;
       }
     }
 
     & > p {
       margin-bottom: 2rem;
+      font-family: var(--sans);
       line-height: var(--line-height);
       font-size: var(--size__base);
       font-weight: lighter;
@@ -125,6 +128,10 @@ div#post {
 
       & > strong {
         font-weight: bold;
+      }
+      
+      & > em {
+        font-weight: inherit;
       }
 
       & > sup {
@@ -207,15 +214,17 @@ div#post {
 
     blockquote {
       background-color: var(--bg);
-      font-style: italic;
       width: 70%;
       margin: 2rem auto;
       padding: 1rem;
       border-radius: 0.5rem;
-
+      
       p {
         margin: 0;
         text-align: center;
+        font-style: italic;
+        font-weight: 400;
+        font-family: var(--sans);
         line-height: var(--line-height);
         font-size: var(--size__base);
         hyphens: auto;
@@ -250,6 +259,10 @@ div#post {
     width: 100%;
     margin: 4rem;
     color: var(--black);
+  }
+
+  section.footnotes {
+    display: none;
   }
 }
 
