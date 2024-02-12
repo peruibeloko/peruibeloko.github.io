@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@700&display=swap');
+/** Monospace */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+/** Sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/** Serif */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/** Display */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 :root {
   --bg_h: #1d2021;
@@ -35,10 +45,10 @@
 }
 
 :root {
-  --mono: 'JetBrains Mono', monospace;
-  --sans: 'Open Sans', sans-serif;
-  --serif: 'Noto Serif', serif;
-  --slab: 'Poppins', serif;
+  --mono: "JetBrains Mono", monospace;
+  --sans: "Open Sans", sans-serif;
+  --serif: "Noto Serif", serif;
+  --display: "Poppins", serif;
 
   --black: var(--bg_h);
   --dark_gray: var(--bg);
@@ -76,15 +86,15 @@ html,
 body,
 div#__nuxt {
   margin: 0 auto;
-  
+
   min-height: 100%;
   max-width: 70rem;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   box-sizing: border-box;
 }
 

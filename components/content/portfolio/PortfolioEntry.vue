@@ -29,7 +29,7 @@
     padding-left: 0.5rem;
 
     font-size: var(--size__big);
-    font-family: var(--slab);
+    font-family: var(--display);
     border-left: 5px solid var(--main);
 
     a {

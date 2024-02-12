@@ -21,7 +21,7 @@
       font-size: 3rem;
       border-left: 10px solid var(--main);
       padding-left: 1rem;
-      font-family: var(--slab);
+      font-family: var(--display);
       font-weight: 600;
     }
 
@@ -38,7 +38,7 @@
     a {
       color: var(--gray);
       font-size: var(--size__big);
-      font-family: var(--slab);
+      font-family: var(--display);
       font-weight: bold;
       transition-duration: 200ms;
 
@@ -80,7 +80,7 @@
 
       a {
         font-size: var(--size__base);
-        font-family: var(--slab);
+        font-family: var(--display);
         font-weight: 600;
       }
 
