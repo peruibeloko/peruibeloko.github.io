@@ -1,6 +1,18 @@
 ::PortfolioEntry
 
-## [audiomath](https://peruibeloko.github.io/audiomath/)
+## [esse site!](https://github.com/Peruibeloko/peruibeloko.github.io/)
+
+Codinome "perublog". Essencialmente um ponto central para meu portfólio, meu blog, e uma página que fala sobre minha experiência profissional.
+
+- [Vue](https://vuejs.org/)
+- [Nuxt](https://nuxt.com/)
+- [Nuxt Content](https://content.nuxt.com/)
+
+::
+
+::PortfolioEntry
+
+## [audiomath](https://github.com/Peruibeloko/audiomath/)
 
 Calculadora de conversão de medidas de áudio. Oferece frequência, nota, período, comprimento de onda e contagem de samples digitais
 
@@ -10,7 +22,7 @@ Calculadora de conversão de medidas de áudio. Oferece frequência, nota, perí
 
 ::PortfolioEntry
 
-## [keylogger](https://peruibeloko.github.io/keylogger/)
+## [keylogger](https://github.com/Peruibeloko/keylogger/)
 
 Visualização de eventos do teclado de forma simples
 
@@ -20,9 +32,9 @@ Visualização de eventos do teclado de forma simples
 
 ::PortfolioEntry
 
-## [Time Calculator](https://peruibeloko.github.io/time-calculator/)
+## [Time Calculator](https://github.com/Peruibeloko/time-calculator/)
 
-Realize operações aritméticas simples entre intervalos de tempo, como somar dois intervalos de tempo ou subtraír 43 minutos de 1h e 25min, por exemplo. Usa o novo objeto experimental para manipulação de tempo e data, o Temporal.
+Realize operações aritméticas simples entre intervalos de tempo, como somar dois intervalos de tempo ou subtrair 43 minutos de 1h e 25min, por exemplo. Usa o novo objeto experimental para manipulação de tempo e data, o Temporal.
 
 - [Temporal](https://github.com/tc39/proposal-temporal)
 - [Vue](https://vuejs.org/)
