@@ -27,6 +27,7 @@ definePageMeta({
       <nav>
         <NuxtLink to="/portfolio" class="portfolio">Portfolio</NuxtLink>
         <NuxtLink to="/blog" class="blog">Blog</NuxtLink>
+        <NuxtLink to="/about" class="about">Sobre mim</NuxtLink>
       </nav>
     </aside>
   </div>
