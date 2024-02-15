@@ -56,6 +56,10 @@
         a {
           text-decoration: underline 2px var(--foreground);
         }
+
+        em {
+          font-weight: 300;
+        }
       }
     }
   }
@@ -74,24 +78,20 @@
     }
 
     nav {
-      width: 30%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-end;
-      gap: 0.25rem;
 
       a {
         font-family: var(--display);
-        font-size: var(--size__big);
-        font-weight: 600;
+        font-size: calc(var(--size__big) * 0.9);
 
         &::after {
-          content: '<';
+          content: "<";
           color: var(--main);
           font-family: var(--display);
           margin-left: 0.5rem;
-          font-weight: 600;
         }
       }
     }
@@ -124,7 +124,7 @@
           }
 
           &::after {
-            content: '';
+            content: "";
             margin-left: 0;
           }
         }
@@ -142,7 +142,7 @@
           padding: 0;
           border-left: none;
         }
-        
+
         span {
           font-size: 1rem;
           padding: 0;
@@ -162,5 +162,4 @@
       }
     }
   }
-
 }
