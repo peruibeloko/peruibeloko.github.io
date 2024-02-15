@@ -1,10 +1,6 @@
 <script setup>
-useHead({
-  title: "Sobre mim"
-});
-
 definePageMeta({
-  name: "Sobre mim"
+  name: "About"
 });
 </script>
 
@@ -15,7 +11,7 @@ definePageMeta({
       <NuxtLink to="/">Home</NuxtLink>
     </header>
     <main>
-      <ContentDoc tag="article"/>
+      <ContentDoc tag="article" />
     </main>
   </div>
 </template>
