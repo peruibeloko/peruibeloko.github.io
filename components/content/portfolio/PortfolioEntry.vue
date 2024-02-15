@@ -13,28 +13,23 @@
   padding: 2rem;
   border-radius: 1rem;
   background-color: var(--black);
-  gap: 1rem;
+
+  &:first-of-type {
+    margin-top: 3rem;
+  }
 
   &:nth-child(odd) {
-    transform: translateX(-40%);
+    transform: translateX(-30%);
   }
 
   &:nth-child(even) {
-    transform: translateX(40%);
+    transform: translateX(30%);
   }
 
   h2 {
+    margin-top: 0;
     display: flex;
     align-items: center;
-    padding-left: 0.5rem;
-
-    font-size: var(--size__big);
-    font-family: var(--display);
-    border-left: 5px solid var(--main);
-
-    a {
-      font-weight: 600;
-    }
 
     &::after {
       content: "(repo link)";
@@ -49,19 +44,10 @@
     }
   }
 
-  p {
-    font-size: var(--size__base);
-    font-family: var(--sans);
-    line-height: var(--line-height);
-    font-weight: 300;
-    text-align: justify;
-    hyphens: auto;
-  }
-
   ul {
     align-self: flex-end;
     display: flex;
-    margin-top: 0.25rem;
+    margin-top: 1.25rem;
 
     li {
       list-style: none;

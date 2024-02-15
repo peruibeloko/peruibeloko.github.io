@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     enabled: false
   },
   modules: ['@nuxt/content', "@nuxt/image"],
-  css: ['~/assets/css/theme.css'],
+  css: ['~/assets/css/theme.scss'],
   content: {
     highlight: {
       theme: 'one-dark-pro',

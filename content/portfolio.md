@@ -1,5 +1,15 @@
 ::PortfolioEntry
 
+## [Advento do Código](https://github.com/Peruibeloko/advent-of-code-2023/)
+
+Minhas soluções para o [Advento do Código 2023](https://adventofcode.com/), feito em Elixir tentando usar o mínimo de pesquisa na internet possível.
+
+- [Elixir](https://elixir-lang.org/)
+
+::
+
+::PortfolioEntry
+
 ## [esse site!](https://github.com/Peruibeloko/peruibeloko.github.io/)
 
 Codinome "perublog". Essencialmente um ponto central para meu portfólio, meu blog, e uma página que fala sobre minha experiência profissional.
@@ -14,7 +24,7 @@ Codinome "perublog". Essencialmente um ponto central para meu portfólio, meu bl
 
 ## [audiomath](https://github.com/Peruibeloko/audiomath/)
 
-Calculadora de conversão de medidas de áudio. Oferece frequência, nota, período, comprimento de onda e contagem de samples digitais
+Calculadora de conversão de medidas de áudio. Oferece frequência, nota, período, comprimento de onda e contagem de samples digitais.
 
 - [Vue](https://vuejs.org/)
 
@@ -65,3 +75,5 @@ Bot para realizar Q&As no Discord. Consiste em um web app escrito em Vue que mos
 - [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
 ::
+
+## Projetos antigos
