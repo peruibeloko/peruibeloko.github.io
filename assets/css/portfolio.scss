@@ -20,6 +20,10 @@
     h2 {
       text-align: center;
     }
+
+    li::marker {
+      content: "";
+    }
   }
 
   footer {

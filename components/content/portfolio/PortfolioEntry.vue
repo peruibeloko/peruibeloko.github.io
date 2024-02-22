@@ -47,9 +47,13 @@
   ul {
     align-self: flex-end;
     display: flex;
+    margin: 0;
+    padding: 0;
     margin-top: 1.25rem;
 
     li {
+      margin: 0;
+      padding: 0;
       list-style: none;
 
       a {
