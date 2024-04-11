@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 /** Sans-serif */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 /** Serif */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 /** Display */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-
+                
 :root {
   --bg_h: #1d2021;
   --bg: #282828;
@@ -46,9 +46,9 @@
 
 :root {
   --mono: "JetBrains Mono", monospace;
-  --sans: "Open Sans", sans-serif;
-  --serif: "Noto Serif", serif;
-  --display: "Poppins", serif;
+  --sans: "Inter Tight", sans-serif;
+  --serif: "Lora", serif;
+  --display: "Poppins", sans-serif;
 
   --black: var(--bg_h);
   --dark_gray: var(--bg);
