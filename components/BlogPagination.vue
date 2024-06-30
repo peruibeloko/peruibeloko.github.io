@@ -47,7 +47,7 @@ const handleSize = (size: number) => emit("size", size);
       <button
         class="nav-button currLessOne"
         type="button"
-        @click="handleNavigate(currentLessOne)"
+        @click="handleNavigate(currentLessOne as number)"
         v-if="currentLessOne"
       >
         {{ currentPage - 1 }}
@@ -56,7 +56,7 @@ const handleSize = (size: number) => emit("size", size);
       <button
         class="nav-button currPlusOne"
         type="button"
-        @click="handleNavigate(currentPlusOne)"
+        @click="handleNavigate(currentPlusOne as number)"
         v-if="currentPlusOne"
       >
         {{ currentPage + 1 }}
