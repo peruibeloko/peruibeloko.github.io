@@ -53,11 +53,16 @@
         font-family: var(--display);
         font-size: calc(var(--size__big) * 0.9);
 
+        &:hover::after {
+          margin-left: 1rem;
+        }
+
         &::after {
-          content: "<";
+          content: '<';
           color: var(--main);
           font-family: var(--display);
           margin-left: 0.5rem;
+          transition-duration: 200ms;
         }
       }
     }
@@ -90,7 +95,7 @@
           }
 
           &::after {
-            content: "";
+            content: '';
             margin-left: 0;
           }
         }
