@@ -58,7 +58,7 @@ const getContent = () => {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 dialog {
   background-color: var(--background);
   padding: 0.25rem 0.5rem;

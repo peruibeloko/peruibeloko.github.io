@@ -16,4 +16,4 @@ definePageMeta({
   </div>
 </template>
 
-<style src="~/assets/css/about.scss" />
+<style src="~/assets/css/about.css" />

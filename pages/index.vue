@@ -34,4 +34,4 @@ definePageMeta({
   </div>
 </template>
 
-<style src="~/assets/css/home.scss" />
+<style src="~/assets/css/home.css" />

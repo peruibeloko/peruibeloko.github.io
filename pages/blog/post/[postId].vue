@@ -32,4 +32,4 @@ provide("footnotes", [footnotes, updateFootnotes]);
   </div>
 </template>
 
-<style src="~/assets/css/post.scss" />
+<style src="~/assets/css/post.css" />

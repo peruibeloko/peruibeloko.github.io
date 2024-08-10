@@ -73,4 +73,4 @@ watch([page, size], ([newPage, newSize]) => {
   </div>
 </template>
 
-<style src="~/assets/css/blog.scss" />
+<style src="~/assets/css/blog.css" />

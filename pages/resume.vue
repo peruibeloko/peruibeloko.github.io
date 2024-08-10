@@ -16,4 +16,4 @@ definePageMeta({
   </div>
 </template>
 
-<style src="~/assets/css/resume.scss" />
+<style src="~/assets/css/resume.css" />
