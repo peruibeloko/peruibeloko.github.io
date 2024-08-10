@@ -1,10 +1,29 @@
 <template>
   <article class="entry-card">
-    <slot />
+    <h2>
+      <MarkdownStringRenderer :content="title" />
+    </h2>
+    <MarkdownStringRenderer :content="description" />
+    <ul>
+      <li v-for="tech of techs">
+        <MarkdownStringRenderer :content="tech" />
+      </li>
+    </ul>
   </article>
 </template>
 
-<style lang="scss">
+<script setup lang="ts">
+// TODO fuck this
+interface Props {
+  title: string;
+  description: string;
+  techs: string[];
+}
+
+defineProps<Props>();
+</script>
+
+<style>
 .entry-card {
   width: 30rem;
   display: flex;
@@ -32,7 +51,7 @@
     align-items: center;
 
     &::after {
-      content: "(repo link)";
+      content: '(repo link)';
       font-size: small;
       margin-left: 0.5rem;
       opacity: 0;
