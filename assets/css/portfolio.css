@@ -1,17 +1,22 @@
 #portfolio {
   header {
-    margin-top: 2rem;
+    margin-top: var(--size__3);
+    margin-bottom: var(--size__2);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: var(--size__05);
+    
+    h1 {
+      font-size: var(--font-size__5);
+    }
   }
-
+  
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: var(--size__3);
 
     h2 a a {
       all: inherit;

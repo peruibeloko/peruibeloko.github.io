@@ -1,16 +1,12 @@
-<script setup lang="ts">
-import { transformContent } from '@nuxt/content/transformers';
-
-const props = defineProps({
-  content: {
-    type: String,
-    required: true,
-    default: ''
-  }
-});
-const parsedMarkdown = await transformContent('content.md', props.content);
-</script>
-
 <template>
-  <ContentRenderer :value="parsedMarkdown" v-bind="$attrs" />
+  <MDC :value="content" unwrap="div p" :tag="tag"/>
 </template>
+
+<script setup lang="ts">
+interface Props {
+  content: string
+  tag: string
+}
+
+const props = defineProps<Props>();
+</script>
