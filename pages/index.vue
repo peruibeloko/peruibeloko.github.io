@@ -1,13 +1,3 @@
-<script setup>
-useHead({
-  title: "Carlinhos"
-});
-
-definePageMeta({
-  name: "Homepage"
-});
-</script>
-
 <template>
   <div id="home">
     <main>
@@ -21,17 +11,24 @@ definePageMeta({
       </article>
     </main>
     <aside>
-      
       <NuxtImg src="https://avatars.githubusercontent.com/u/3859329" alt="Foto de perfil" />
-
       <nav>
         <NuxtLink to="/portfolio" class="portfolio">Portfolio</NuxtLink>
         <NuxtLink to="/blog" class="blog">Blog</NuxtLink>
         <NuxtLink to="/about" class="about">Sobre mim</NuxtLink>
-        <NuxtLink to="/resume" class="resume">Currículo</NuxtLink>
       </nav>
     </aside>
   </div>
 </template>
 
-<style src="~/assets/css/home.scss" />
+<script setup>
+useHead({
+  title: "Carlinhos"
+});
+
+definePageMeta({
+  name: "Homepage"
+});
+</script>
+
+<style src="~/assets/css/home.css" />

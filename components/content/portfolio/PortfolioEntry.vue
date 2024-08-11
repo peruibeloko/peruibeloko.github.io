@@ -1,30 +1,33 @@
 <template>
   <article class="entry-card">
-    <slot />
+    <MarkdownStringRenderer :content="title" tag="h2" />
+    <MarkdownStringRenderer :content="description" tag="p" />
+    <ul>
+      <MarkdownStringRenderer v-for="tech of techs" :content="tech" tag="li" />
+    </ul>
   </article>
 </template>
 
-<style lang="scss">
+<script setup lang="ts">
+interface Props {
+  title: string;
+  description: string;
+  techs: string[];
+}
+
+defineProps<Props>();
+</script>
+
+<style>
 .entry-card {
-  width: 30rem;
+  width: 40rem;
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
-  padding: 2rem;
-  border-radius: 1rem;
-  background-color: var(--black);
-
-  &:first-of-type {
-    margin-top: 3rem;
-  }
-
-  &:nth-child(odd) {
-    transform: translateX(-30%);
-  }
-
-  &:nth-child(even) {
-    transform: translateX(30%);
-  }
+  margin-top: var(--size__1);
+  padding: var(--size__2);
+  border-radius: var(--size__1);
+  border: 5px solid var(--color__800);
+  gap: var(--size__1);
 
   h2 {
     margin-top: 0;
@@ -32,9 +35,9 @@
     align-items: center;
 
     &::after {
-      content: "(repo link)";
-      font-size: small;
-      margin-left: 0.5rem;
+      content: '(repo link)';
+      font-size: var(--font-size__05);
+      margin-left: var(--size__05);
       opacity: 0;
       transition-duration: 200ms;
     }
@@ -49,7 +52,6 @@
     display: flex;
     margin: 0;
     padding: 0;
-    margin-top: 1.25rem;
 
     li {
       margin: 0;
@@ -58,15 +60,16 @@
 
       a {
         cursor: pointer;
-        font-size: var(--size__small);
-        font-family: var(--sans);
+        font-size: var(--font-size__05);
+        font-family: var(--font__body);
         margin: 0 0.25rem;
         padding: 0.25rem 0.5rem;
-        background-color: var(--black);
-        color: var(--white);
+        background-color: transparent;
+        color: var(--color__text);
         border-radius: 1rem;
-        border: 1px solid var(--white);
+        border: 1px solid var(--color__text);
         transition-duration: 200ms;
+        text-decoration: none;
       }
 
       &:last-of-type a {
@@ -74,8 +77,8 @@
       }
 
       &:hover a {
-        background-color: var(--white);
-        color: var(--black);
+        background-color: var(--color__text);
+        color: var(--color__background);
       }
     }
   }

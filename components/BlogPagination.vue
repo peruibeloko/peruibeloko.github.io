@@ -92,7 +92,7 @@ const handleSize = (size: number) => emit("size", size);
   </aside>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .back {
   grid-area: back;
 }

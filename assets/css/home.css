@@ -1,14 +1,14 @@
 #home {
   display: flex;
-  gap: 5rem;
-  width: 60%;
+  gap: var(--size__3);
+  width: 40rem;
   margin: 2rem 0;
 
   main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;
+    gap: var(--size__3);
 
     section {
       display: flex;
@@ -17,16 +17,22 @@
       span {
         padding-left: 0.5rem;
         border-left: var(--border__big);
-        color: var(--gray);
-        font-family: var(--sans);
+        color: var(--color__500);
+        font-family: var(--font__body);
         font-weight: normal;
         font-style: italic;
-        font-size: var(--size__base);
+        font-size: var(--font-size__1);
       }
     }
 
     article {
       border-radius: 1rem;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: var(--size__1);
+      }
     }
   }
 
@@ -34,36 +40,44 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 3rem;
+    gap: var(--size__3);
     justify-content: flex-start;
 
     img {
       width: 10rem;
       border-radius: 1rem;
-      border: 1px var(--main) solid;
+      border: 1px var(--color__accent) solid;
     }
 
     nav {
+      width: 11rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-end;
 
       a {
-        font-family: var(--display);
-        font-size: calc(var(--size__big) * 0.9);
+        font-family: var(--font__heading);
+        font-size: var(--font-size__2);
+
+        &:hover::after {
+          margin-left: 1rem;
+        }
 
         &::after {
-          content: "<";
-          color: var(--main);
-          font-family: var(--display);
+          content: '<';
+          color: var(--color__primary);
+          font-family: var(--font__heading);
           margin-left: 0.5rem;
+          transition-duration: 200ms;
         }
       }
     }
   }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  #home {
     width: 80%;
     flex-direction: column-reverse;
     gap: 0;
@@ -78,19 +92,20 @@
       nav {
         width: 100%;
         margin-bottom: 2rem;
+        gap: 1rem;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
 
         a {
-          text-decoration: underline 3px var(--main);
+          text-decoration: underline 3px var(--color__primary);
 
           &:first-of-type {
             margin-bottom: 0rem;
           }
 
           &::after {
-            content: "";
+            content: '';
             margin-left: 0;
           }
         }
@@ -114,7 +129,7 @@
           padding: 0;
           border: none;
           color: var(--gray);
-          font-family: var(--sans);
+          font-family: var(--font__body);
           font-weight: normal;
         }
       }

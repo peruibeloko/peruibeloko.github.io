@@ -1,16 +1,20 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config';
+
 export default defineNuxtConfig({
   devtools: {
     enabled: false
   },
-  modules: ['@nuxt/content', "@nuxt/image"],
-  css: ['~/assets/css/theme.scss'],
+
+  modules: ['@nuxt/content', '@nuxt/image', '@nuxtjs/mdc'],
+  css: ['~/assets/css/theme.css'],
+
   content: {
     highlight: {
       theme: 'one-dark-pro',
       preload: ['typescript', 'javascript']
     }
   },
+
   app: {
     head: {
       link: [
@@ -24,5 +28,7 @@ export default defineNuxtConfig({
         lang: 'pt-BR'
       }
     }
-  }
+  },
+
+  compatibilityDate: '2024-08-10'
 });

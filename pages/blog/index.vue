@@ -1,22 +1,22 @@
 <script setup lang="ts">
-import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
+import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types';
 
 useHead({
   title: 'Blag'
-})
+});
 
 definePageMeta({
   name: 'Blog Home'
-})
+});
 
 const page = ref(1);
 const size = ref(5);
-const count = await queryContent("blog").count();
+const count = await queryContent('blog').count();
 
 watch(size, () => (page.value = 1));
 
 const query = reactive<QueryBuilderParams>({
-  path: "blog",
+  path: 'blog',
   skip: (page.value - 1) * size.value,
   limit: size.value,
   sort: [{ date: -1 }]
@@ -26,18 +26,16 @@ watch([page, size], ([newPage, newSize]) => {
   query.skip = (newPage - 1) * newSize;
   query.limit = newSize;
 });
-
 </script>
 
 <template>
   <div id="blog">
     <header>
-      <h1>Blag</h1>
-      <NuxtLink to="/">Home</NuxtLink>
-      <h2>
-        Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar
-        besteira
-      </h2>
+      <div>
+        <h1>Blag</h1>
+        <NuxtLink to="/">Home</NuxtLink>
+      </div>
+      <p>Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar besteira</p>
     </header>
     <main>
       <ContentList :query="query">
@@ -45,11 +43,11 @@ watch([page, size], ([newPage, newSize]) => {
           <ul class="post-list">
             <li v-for="post in list" :key="post._path">
               <time :datetime="post.date">{{
-                `${new Date(post.date).toLocaleDateString("pt-BR", {
-                  year: "numeric",
-                  month: "numeric",
-                  day: "numeric",
-                  timeZone: "UTC"
+                `${new Date(post.date).toLocaleDateString('pt-BR', {
+                  year: 'numeric',
+                  month: 'numeric',
+                  day: 'numeric',
+                  timeZone: 'UTC'
                 })}`
               }}</time>
               <a :href="post._path?.replace('blog', 'blog/post')">{{ post.title }}</a>
@@ -73,4 +71,4 @@ watch([page, size], ([newPage, newSize]) => {
   </div>
 </template>
 
-<style src="~/assets/css/blog.scss" />
+<style src="~/assets/css/blog.css" />

@@ -9,7 +9,7 @@ Busco atuar em projetos que apresentem desafios interessantes, acho fascinante e
 
 Acha que eu seria um bom fit? Gostaria que eu integrasse sua equipe? Bora trocar uma ideia!
 
-- Meu email é cmendonca32 arroba gmail ponto com (não posso colocar o link aberto, os spam bots vão fazer a festa na minha caixa de entrada)
+- Meu email é [eumesmo@carlinhos.dev.br](mailto:eumesmo@carlinhos.dev.br)
 - Meu LinkedIn é [esse aqui](https://www.linkedin.com/in/carlospellizzari/)
 - Meu GitHub é [esse aqui](https://github.com/Peruibeloko)
 
