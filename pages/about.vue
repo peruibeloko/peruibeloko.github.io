@@ -5,10 +5,10 @@ definePageMeta({
 </script>
 
 <template>
-  <div id="about">
+  <div id="post">
     <header>
-      <h1>Sobre mim</h1>
       <NuxtLink to="/">Home</NuxtLink>
+      <h1>Sobre mim</h1>
     </header>
     <main>
       <ContentDoc tag="article" />
@@ -16,4 +16,4 @@ definePageMeta({
   </div>
 </template>
 
-<style src="~/assets/css/about.css" />
+<style src="~/assets/css/post.css" />

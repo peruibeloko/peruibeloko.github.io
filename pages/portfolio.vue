@@ -1,8 +1,8 @@
 <template>
   <div id="portfolio">
     <header>
-      <h1>Portfolio</h1>
       <NuxtLink to="/">Home</NuxtLink>
+      <h1>Portfolio</h1>
     </header>
     <main>
       <PortfolioEntry v-for="project in projectList" v-bind="project" />

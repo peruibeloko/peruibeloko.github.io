@@ -23,8 +23,8 @@ provide("footnotes", [footnotes, updateFootnotes]);
 <template>
   <div id="post">
     <header>
-      <h1>{{ data?.title }}</h1>
       <NuxtLink to="/blog">Voltar</NuxtLink>
+      <h1>{{ data?.title }}</h1>
     </header>
     <main>
       <ContentDoc tag="article" :path="`/blog/${currentRoute.params.postId}`" />

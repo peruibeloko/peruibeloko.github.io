@@ -218,11 +218,29 @@ div#post {
   section.footnotes {
     display: none;
   }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  div#post {
+    margin: 0 var(--size__2);
+
     header {
+      margin-top: var(--size__3);
+      align-items: center;
+
       h1 {
-        font-size: var(--font-size__2);
+        font-size: var(--font-size__3);
+        border-left: none;
+        padding-left: 0;
+        text-align: center;
+        
+        border-top: var(--border__big);
+        border-top-style: double;
+        margin-top: var(--size__1);
+        
+        border-bottom: var(--border__big);
+        border-bottom-style: double;
+        margin-bottom: var(--size__1);
       }
     }
 

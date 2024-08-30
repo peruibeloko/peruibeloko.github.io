@@ -32,8 +32,8 @@ watch([page, size], ([newPage, newSize]) => {
   <div id="blog">
     <header>
       <div>
-        <h1>Blag</h1>
         <NuxtLink to="/">Home</NuxtLink>
+        <h1>Blag</h1>
       </div>
       <p>Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar besteira</p>
     </header>
