@@ -23,11 +23,17 @@
 
 <script setup>
 useHead({
-  title: "Carlinhos"
+  title: 'Carlinhos',
+  link: [
+    {
+      rel: 'me',
+      href: 'https://mastodon.social/@peruibeloko'
+    }
+  ]
 });
 
 definePageMeta({
-  name: "Homepage"
+  name: 'Homepage'
 });
 </script>
 
