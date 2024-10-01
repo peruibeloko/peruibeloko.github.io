@@ -98,7 +98,7 @@ p {
   font-family: var(--font__body);
   line-height: var(--line-height__body);
   font-size: var(--font-size__1);
-  font-weight: 300;
+  font-weight: 100;
   text-align: justify;
   hyphens: auto;
 }
@@ -120,12 +120,10 @@ em {
 
 :not(h1, h2, h3, h4, nav) > a {
   font-weight: bold;
-  color: var(--color__secondary);
-  text-decoration: underline 2px var(--color__secondary);
+  color: var(--color__primary);
 
   &:hover {
-    color: var(--color__accent);
-    text-decoration-color: var(--color__accent);
+    text-decoration: underline;
   }
 }
 

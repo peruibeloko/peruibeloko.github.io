@@ -13,7 +13,7 @@
     <aside>
       <NuxtImg src="https://avatars.githubusercontent.com/u/3859329" alt="Foto de perfil" />
       <nav>
-        <NuxtLink to="/portfolio" class="portfolio">Portfolio</NuxtLink>
+        <NuxtLink to="/projects" class="projects">Projetos</NuxtLink>
         <NuxtLink to="/blog" class="blog">Blog</NuxtLink>
         <NuxtLink to="/about" class="about">Sobre mim</NuxtLink>
       </nav>

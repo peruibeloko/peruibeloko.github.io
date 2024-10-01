@@ -46,7 +46,7 @@
     img {
       width: 10rem;
       border-radius: 1rem;
-      border: 1px var(--color__accent) solid;
+      filter: sepia(1);
     }
 
     nav {
