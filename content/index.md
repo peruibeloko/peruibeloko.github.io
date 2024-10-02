@@ -1,7 +1,9 @@
 Pode me chamar de Carlinhos!
 
-Sou apaixonado por Computação e quero inspirar essa mesma paixão em outros no futuro como professor. Sou formado em Ciências da Computação pela UAM, mas estudo programação desde 2013.
+Sou apaixonado por programação e gosto de inspirar essa mesma paixão em outros.
 
-Minhas áreas de interesse dentro da computação incluem _Linguagens de Programação_, _Compiladores_, _Web_ e _Programação Funcional_. Minha linguagem mais usada é [TypeScript](https://www.typescriptlang.org/){:target="\_blank"} e minha framework de preferência é [Vue](https://vuejs.org/){:target="\_blank"}
+Me interesso por Linguagens de Programação, Desenvolvimento e Tecnologias Web, Programação Funcional e Arquitetura de Software. Minha linguagem mais usada é [TypeScript](https://www.typescriptlang.org/) e minha framework de preferência é [Vue](https://vuejs.org/).
 
-Também faço música! Caso você se interesse o link é [esse](https://linktr.ee/dyn.mic){:target="\_blank"}
+Quando não estou codando, jogando, ou assistindo vídeos de usinagem industrial no YouTube, chances são que [estou fazendo música](https://linktr.ee/dyn.mic).
+
+Estou no [GitHub](https://github.com/Peruibeloko) (bastante), [Mastodon](https://mastodon.social/@peruibeloko) (as vezes) e [YouTube](https://www.youtube.com/@peruibeloko/) (quase nunca)

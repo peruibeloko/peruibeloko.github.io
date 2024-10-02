@@ -60,7 +60,7 @@ const getContent = () => {
 
 <style scoped>
 dialog {
-  background-color: var(--background);
+  background-color: var(--color__background);
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
   cursor: default;

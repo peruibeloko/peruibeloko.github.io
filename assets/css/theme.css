@@ -23,7 +23,7 @@
   box-sizing: border-box;
   background-color: transparent;
   color: var(--color__text);
-  font-weight: normal;
+  font-weight: 300;
 }
 
 *::selection {
@@ -37,7 +37,6 @@ div#__nuxt {
   margin: 0 auto;
 
   min-height: 100%;
-  max-width: 70rem;
 
   display: flex;
   flex-direction: column;
@@ -98,7 +97,6 @@ p {
   font-family: var(--font__body);
   line-height: var(--line-height__body);
   font-size: var(--font-size__1);
-  font-weight: 100;
   text-align: justify;
   hyphens: auto;
 }
@@ -234,17 +232,21 @@ header a {
   font-weight: bold;
   transition-duration: 200ms;
   text-decoration: none;
-
+  
   &::before {
     color: var(--color__500);
     font-weight: bold;
-    content: '> ';
+    content: '>';
+    margin-right: var(--size__05);
+    transition-duration: 200ms;
   }
-
+  
   &:hover {
     color: var(--color__text);
-
+    text-decoration: none;
+    
     &::before {
+      margin-right: var(--size__1);
       color: var(--color__primary);
     }
   }

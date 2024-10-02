@@ -1,24 +1,18 @@
 <template>
   <div id="projects">
     <header>
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/">Voltar</NuxtLink>
       <h1>Projetos</h1>
-      <p>Esses são meus projetos pessoais que acumulei ao longo do tempo. Alguns ativos, alguns terminados, alguns abandonados. Os nomes são links.</p>
+      <div>
+        <p>Esses são projetos pessoais que acumulei ao longo do tempo.</p>
+        <p>Alguns ativos, alguns terminados, alguns abandonados.</p>
+        <p>Os nomes são links.</p>
+      </div>
     </header>
     <main>
-      <Entry v-for="project in projectList" v-bind="project" />
+      <ContentDoc />
     </main>
   </div>
 </template>
-<script setup lang="ts">
-interface Project {
-  title: string;
-  description: string;
-  techs: string[];
-}
 
-const entries = await queryContent('projects').findOne();
-
-const projectList = entries.body as unknown as Project[];
-</script>
 <style src="~/assets/css/projects.css" />

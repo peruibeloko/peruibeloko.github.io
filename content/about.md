@@ -3,7 +3,9 @@ title: Sobre mim
 description: Essa página é um descritivo do meu conhecimento técnico e interpessoal
 ---
 
-Meu nome é **Carlos Mendonça (Carlinhos)**, nasci em maio de 1999, e resido na cidade de São Paulo. Minhas experiências profissionais variam de **Suporte Técnico** a **Arquitetura de Sistemas** e me especializo na área de **Desenvolvimento de Software**.
+Meu nome é **Carlos Mendonça (Carlinhos)**, nasci em Maio de 1999 em São Paulo, e atualmente resido na cidade de Santos.
+
+Minhas experiências profissionais variam de **Suporte Técnico** a **Arquitetura de Sistemas** e me especializo na área de **Desenvolvimento de Software**.
 
 Busco atuar em projetos que apresentem desafios interessantes, acho fascinante entender como o mundo a nossa volta funciona por trás das cenas, explorando muitas vezes os sistemas ocultos do nosso cotidiano que fazem o mundo girar.
 

@@ -1,38 +1,8 @@
-<script setup lang="ts">
-import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types';
-
-useHead({
-  title: 'Blag'
-});
-
-definePageMeta({
-  name: 'Blog Home'
-});
-
-const page = ref(1);
-const size = ref(5);
-const count = await queryContent('blog').count();
-
-watch(size, () => (page.value = 1));
-
-const query = reactive<QueryBuilderParams>({
-  path: 'blog',
-  skip: (page.value - 1) * size.value,
-  limit: size.value,
-  sort: [{ date: -1 }]
-});
-
-watch([page, size], ([newPage, newSize]) => {
-  query.skip = (newPage - 1) * newSize;
-  query.limit = newSize;
-});
-</script>
-
 <template>
   <div id="blog">
     <header>
       <div>
-        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/">Voltar</NuxtLink>
         <h1>Blag</h1>
       </div>
       <p>Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar besteira</p>
@@ -70,5 +40,33 @@ watch([page, size], ([newPage, newSize]) => {
     </main>
   </div>
 </template>
+<script setup lang="ts">
+import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types';
 
+useHead({
+  title: 'Blag'
+});
+
+definePageMeta({
+  name: 'Blog Home'
+});
+
+const page = ref(1);
+const size = ref(5);
+const count = await queryContent('blog').count();
+
+watch(size, () => (page.value = 1));
+
+const query = reactive<QueryBuilderParams>({
+  path: 'blog',
+  skip: (page.value - 1) * size.value,
+  limit: size.value,
+  sort: [{ date: -1 }]
+});
+
+watch([page, size], ([newPage, newSize]) => {
+  query.skip = (newPage - 1) * newSize;
+  query.limit = newSize;
+});
+</script>
 <style src="~/assets/css/blog.css" />

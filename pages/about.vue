@@ -5,9 +5,9 @@ definePageMeta({
 </script>
 
 <template>
-  <div id="post">
+  <div id="about">
     <header>
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/">Voltar</NuxtLink>
       <h1>Sobre mim</h1>
     </header>
     <main>
@@ -16,4 +16,4 @@ definePageMeta({
   </div>
 </template>
 
-<style src="~/assets/css/post.css" />
+<style src="~/assets/css/about.css" />

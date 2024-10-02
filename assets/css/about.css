@@ -5,11 +5,12 @@ html {
 #about {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 40rem;
+  align-items: start;
+  max-width: 50rem;
 
   header {
-    margin-top: var(--size__4);
+    margin-top: var(--size__3);
+    margin-bottom: var(--size__2);
     display: flex;
     flex-direction: column;
     gap: var(--size__1);
@@ -20,39 +21,45 @@ html {
     flex-direction: column;
     margin-bottom: var(--size__4);
 
-    & > p {
+    p {
       margin-top: var(--size__1);
-      font-family: var(--font__body);
-      text-align: justify;
-      hyphens: auto;
 
-      & > a {
-        color: var(--orange);
+      &:first-of-type {
+        margin-top: 0;
+      }
+
+      a {
+        color: var(--color__primary);
 
         &:hover {
-          color: var(--yellow);
+          text-decoration: solid underline 1px var(--color__primary);
         }
       }
 
-      & > strong {
+      strong {
         font-weight: bold;
       }
 
-      & > em {
+      em {
         font-weight: inherit;
       }
 
-      & > sup {
-        & > span {
-          color: var(--orange);
+      sup {
+        span {
+          color: var(--color__accent);
         }
 
         cursor: pointer;
       }
     }
 
+    :is(h2, h3, h4) + p {
+      margin-top: 0;
+    }
+
     h2 {
-      padding-top: var(--size__3);
+      margin-top: var(--size__3);
+      margin-bottom: var(--size__1);
 
       text-decoration: underline;
       text-decoration-color: var(--color__primary);
@@ -66,7 +73,8 @@ html {
     }
 
     h3 {
-      padding-top: var(--size__2);
+      margin-top: var(--size__3);
+      margin-bottom: var(--size__1);
       a {
         font-family: var(--font__heading);
         font-size: var(--font-size__2);
@@ -115,9 +123,8 @@ html {
     }
 
     li {
-      line-height: var(--line-height);
+      line-height: var(--line-height__body);
       font-size: var(--size__base);
-      font-weight: lighter;
       hyphens: auto;
 
       :is(ol, ul) {
@@ -180,10 +187,27 @@ html {
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 640px) {
+    margin: 0 var(--size__2);
+
     header {
+      width: 100%;
+      margin-top: var(--size__3);
+      align-items: center;
+
       h1 {
-        font-size: var(--size__title);
+        font-size: var(--font-size__3);
+        border-left: none;
+        padding-left: 0;
+        text-align: center;
+
+        border-top: var(--border__big);
+        border-top-style: double;
+        margin-top: var(--size__1);
+
+        border-bottom: var(--border__big);
+        border-bottom-style: double;
+        margin-bottom: var(--size__1);
       }
     }
 
