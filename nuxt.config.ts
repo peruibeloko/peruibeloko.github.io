@@ -22,6 +22,10 @@ export default defineNuxtConfig({
           rel: 'icon',
           type: 'image/png',
           href: 'https://emoji.gg/assets/emoji/thonk.png'
+        },
+        {
+          rel: 'me',
+          href: 'https://mastodon.social/@peruibeloko'
         }
       ],
       htmlAttrs: {

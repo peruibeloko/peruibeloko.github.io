@@ -2,7 +2,7 @@ html {
   scroll-padding-top: 2rem;
 }
 
-#about {
+#resume {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -26,6 +26,10 @@ html {
       margin: var(--size__2) 0;
       width: 80%;
       align-self: center;
+    }
+
+    hr + h2 {
+      margin-top: var(--size__2);
     }
 
     p {
@@ -126,7 +130,14 @@ html {
     ul {
       display: flex;
       flex-direction: column;
-      gap: var(--size__05);
+    }
+
+    h3 + ol {
+      margin-top: 0;
+    }
+
+    ol {
+      list-style: none;
     }
 
     li {

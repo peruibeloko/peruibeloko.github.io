@@ -3,7 +3,11 @@ title: Sobre mim
 description: Essa página é um descritivo do meu conhecimento técnico e interpessoal
 ---
 
-Aqui eu falo sobre mim de maneira mais descontraída, se quis
+Aqui eu falo sobre mim de maneira mais descontraída.
+
+Se quiser algo mais parecido com um currículo, dá uma olhada [aqui](/resume)
+
+---
 
 Meu nome é **Carlos Mendonça (Carlinhos)**, nasci em Maio de 1999 em São Paulo, e atualmente resido na cidade de Santos.
 
@@ -19,9 +23,9 @@ Acha que eu seria um bom fit? Gostaria que eu integrasse sua equipe? Bora trocar
 
 ## Eu sei falar com máquinas
 
-Sou um programador por formação. Naturalmente, eu sei programar. Tudo certo até aí? Ok!
+Sou um programador por formação. Naturalmente, eu sei programar.
 
-O _que_ eu sei programar? Essencialmente qualquer coisa. Ah, isso aí que você precisa? Olha, posso até demorar um pouco pra entender como vai funcionar, planejar como vou construir e dar manutenção no futuro, bem como decidir quais tecnologias usar, mas que dá pra fazer, normalmente dá. _Normalmente_.
+O que eu consigo programar? Praticamente qualquer coisa. Posso até demorar um pouco pra entender como vai funcionar, planejar como vou construir e dar manutenção no futuro, mas que dá pra fazer, normalmente dá. _Normalmente_.
 
 **Alguns dos meus diferenciais**:
 
@@ -35,21 +39,23 @@ O _que_ eu sei programar? Essencialmente qualquer coisa. Ah, isso aí que você 
 
 Muito provavelmente vou usar **JavaScript** ou [TypeScript](https://www.typescriptlang.org/) para construir a maioria das coisas. No frontend quero tentar te convencer a usar [Vue](https://vuejs.org/), objetivamente a melhor framework de todas (juro que não é só minha opinião). Se você não estiver afim de usar Vue, pode ser [React](https://react.dev/) ou [Svelte](https://svelte.dev/) também.
 
-Quer alguma coisa mais chique? Tudo bem, que tal [Nuxt](https://nuxt.com/)? A meta-framework de Vue que usei pra fazer esse site do 0! Ah é, você não quer Vue né? Tudo bem, pode ser o [Next](https://nextjs.org/) também. Remix parece ser legal, mas nunca usei, mesma coisa com o Qwik.
+Quer alguma coisa mais chique? Tudo bem, que tal [Nuxt](https://nuxt.com/)? A meta-framework de Vue que usei pra fazer esse site! Ah é, você não quer Vue né? Tudo bem, pode ser o [Next](https://nextjs.org/) também. Remix parece ser legal, mas nunca usei, mesma coisa com o Qwik.
 
 Já ouviu falar do [Tauri](https://tauri.app/)? Parece ser melhor que o Electron pra desktop, e pretendem portar para mobile também, para competir com o React Native.
 
 ### Back
 
-No backend eu já usei bastante [Express](https://expressjs.com/), e durante um tempo usei uma versão customizada do [Koa](https://koajs.com/#response) quando trabalhei com [VTEX](https://vtex.com/br-pt/). Já vi bastante coisa sobre o [Nest](https://nestjs.com/) e queria usar ele em algum momento, mas pra ser sincero, eu quero _mesmo_ mesmo é usar [Deno](https://deno.com/). Ele já vem com tudo dentro do pacote, tem uma biblioteca padrão super extensa, é muito bem documentado, seguro, escrito em Rust, e com um ecossistema muito interessante!
+No backend eu já usei bastante [Express](https://expressjs.com/), e durante um tempo usei uma versão customizada do [Koa](https://koajs.com/) quando trabalhei com [VTEX](https://vtex.com/br-pt/). Já vi bastante coisa sobre o [Nest](https://nestjs.com/) e queria usar ele em algum momento, mas pra ser sincero, eu quero _mesmo_ mesmo é usar [Deno](https://deno.com/). Ele já vem com tudo dentro do pacote, tem uma biblioteca padrão super extensa, é muito bem documentado, seguro, escrito em Rust, e com um ecossistema muito interessante!
+
+Atualmente estou usando bastante Express e Node (para BFFs) e Java com Quarkus (para microsserviços).
 
 Bancos de dados também não são muito mistério pra mim. Já usei **SQL Server**, **MySQL** e **MongoDB**. Mas de verdade? Bancos relacionais não são tão diferentes assim, é mais fácil dizer que eu sei **SQL** no geral. Não-relacionais só usei Mongo mesmo.
 
 ### Cloud
 
-Já usei [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/en-us), [GCP](https://cloud.google.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/) e [Deno Deploy](https://deno.com/deploy). Ainda não usei **Docker** nem **Kubernetes**. Mas seja sincero, é realmente _tão_ complicado assim?
+Já usei [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/en-us), [GCP](https://cloud.google.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/) e [Deno Deploy](https://deno.com/deploy). Atualmente trabalho com [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/) e Azure. Deno Deploy para projetos pessoais.
 
-**RabbitMQ**, **SQS** e **Kafka** estão na lista de estudo, mas pra te adiantar: Tópicos são listas de mensagens publicadas que estão aguardando para serem consumidas por serviços. Não acho que deva ser muito pior do que isso.
+**RabbitMQ**, **SQS** e **Kafka** também estão aí no meio.
 
 ### Outras tecnologias
 
@@ -72,6 +78,3 @@ Essa é a parte mais difícil de constatar durante um processo seletivo, já que
 - Gerir equipes não é meu forte, mas sou um bom mentor
 - Sei receber e fornecer feedback
 - Já disse que [gosto de explicar](https://youtu.be/Bf471dYOdlw?si=Pm5DOOzVgLtQeCej&t=1789)?
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjE3NjQ1MF19
--->

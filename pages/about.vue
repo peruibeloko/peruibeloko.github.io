@@ -1,9 +1,3 @@
-<script setup>
-definePageMeta({
-  name: "About"
-});
-</script>
-
 <template>
   <div id="about">
     <header>
