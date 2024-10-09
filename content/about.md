@@ -15,8 +15,6 @@ Acha que eu seria um bom fit? Gostaria que eu integrasse sua equipe? Bora trocar
 - Meu LinkedIn é [esse aqui](https://www.linkedin.com/in/carlospellizzari/)
 - Meu GitHub é [esse aqui](https://github.com/Peruibeloko)
 
-Se você não estiver com tempo de ler tudo isso, o resumo é o seguinte: Acho que [essa pessoa aqui](https://www.linkedin.com/in/me/) deveria me contratar, tenho certeza que ela não vai se arrepender.
-
 ## Eu sei falar com máquinas
 
 Sou um programador por formação. Naturalmente, eu sei programar. Tudo certo até aí? Ok!
@@ -73,5 +71,5 @@ Essa é a parte mais difícil de constatar durante um processo seletivo, já que
 - Sei receber e fornecer feedback
 - Já disse que [gosto de explicar](https://youtu.be/Bf471dYOdlw?si=Pm5DOOzVgLtQeCej&t=1789)?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODYyOTE1OF19
+eyJoaXN0b3J5IjpbNzAyMjIxMzJdfQ==
 -->
