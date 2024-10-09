@@ -3,11 +3,13 @@ title: Sobre mim
 description: Essa página é um descritivo do meu conhecimento técnico e interpessoal
 ---
 
+Aqui eu falo sobre mim de maneira mais descontraída, se quis
+
 Meu nome é **Carlos Mendonça (Carlinhos)**, nasci em Maio de 1999 em São Paulo, e atualmente resido na cidade de Santos.
 
 Minhas experiências profissionais variam de **Suporte Técnico** a **Arquitetura de Sistemas** e me especializo na área de **Desenvolvimento de Software**.
 
-Busco atuar em projetos que apresentem desafios interessantes, acho fascinante entender como o mundo a nossa volta funciona por trás das cenas, explorando muitas vezes os sistemas ocultos do nosso cotidiano que fazem o mundo girar.
+Minha meta é atuar em projetos que apresentem desafios interessantes. Acho fascinante entender como o mundo a nossa volta funciona por trás das cenas, explorando muitas vezes os sistemas ocultos do nosso cotidiano que fazem o mundo girar.
 
 Acha que eu seria um bom fit? Gostaria que eu integrasse sua equipe? Bora trocar uma ideia!
 
@@ -71,5 +73,5 @@ Essa é a parte mais difícil de constatar durante um processo seletivo, já que
 - Sei receber e fornecer feedback
 - Já disse que [gosto de explicar](https://youtu.be/Bf471dYOdlw?si=Pm5DOOzVgLtQeCej&t=1789)?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMjIxMzJdfQ==
+eyJoaXN0b3J5IjpbMTUzNjE3NjQ1MF19
 -->
