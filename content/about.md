@@ -72,3 +72,6 @@ Essa é a parte mais difícil de constatar durante um processo seletivo, já que
 - Gerir equipes não é meu forte, mas sou um bom mentor
 - Sei receber e fornecer feedback
 - Já disse que [gosto de explicar](https://youtu.be/Bf471dYOdlw?si=Pm5DOOzVgLtQeCej&t=1789)?
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk5ODYyOTE1OF19
+-->
