@@ -10,9 +10,15 @@
       </div>
     </header>
     <main>
-      <ContentDoc />
+      <PageContent />
     </main>
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'Carlinhos'
+});
+</script>
 
 <style src="~/assets/css/projects.css" />

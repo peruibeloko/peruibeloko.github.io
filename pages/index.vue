@@ -7,11 +7,14 @@
       </section>
 
       <article>
-        <ContentDoc />
+        <PageContent />
       </article>
     </main>
     <aside>
-      <NuxtImg src="https://avatars.githubusercontent.com/u/3859329" alt="Foto de perfil" />
+      <NuxtImg
+        src="https://avatars.githubusercontent.com/u/3859329"
+        alt="Foto de perfil"
+      />
       <nav>
         <NuxtLink to="/projects" class="projects">Projetos</NuxtLink>
         <NuxtLink to="/blog" class="blog">Blog</NuxtLink>
@@ -21,7 +24,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 useHead({
   title: 'Carlinhos'
 });

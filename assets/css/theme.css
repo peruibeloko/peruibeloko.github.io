@@ -60,25 +60,20 @@ h1 {
 
 h2 {
   text-decoration: underline var(--color__primary) 5px;
-
-  a {
-    font-family: var(--font__heading);
-    font-size: var(--font-size__3);
-    font-weight: 600;
-  }
+  font-family: var(--font__heading);
+  font-size: var(--font-size__3);
+  font-weight: 600;
 }
 
 h3 {
-  a {
-    font-family: var(--font__heading);
-    font-size: var(--font-size__2);
-    font-weight: 600;
+  font-family: var(--font__heading);
+  font-size: var(--font-size__2);
+  font-weight: 600;
 
-    &::before {
-      content: '> ';
-      color: var(--color__primary);
-      font-weight: bold;
-    }
+  &::before {
+    content: '> ';
+    color: var(--color__primary);
+    font-weight: bold;
   }
 }
 
@@ -86,11 +81,9 @@ h4 {
   border-left: var(--border__regular);
   padding-left: 0.5rem;
 
-  a {
-    font-family: var(--font__heading);
-    font-size: var(--font-size__3);
-    font-weight: 600;
-  }
+  font-family: var(--font__heading);
+  font-size: var(--font-size__3);
+  font-weight: 600;
 }
 
 p {
@@ -232,7 +225,7 @@ header a {
   font-weight: bold;
   transition-duration: 200ms;
   text-decoration: none;
-  
+
   &::before {
     color: var(--color__500);
     font-weight: bold;
@@ -240,11 +233,11 @@ header a {
     margin-right: var(--size__05);
     transition-duration: 200ms;
   }
-  
+
   &:hover {
     color: var(--color__text);
     text-decoration: none;
-    
+
     &::before {
       margin-right: var(--size__1);
       color: var(--color__primary);

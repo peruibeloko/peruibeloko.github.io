@@ -5,29 +5,26 @@
         <NuxtLink to="/">Voltar</NuxtLink>
         <h1>Blag</h1>
       </div>
-      <p>Estatisticamente falando, escrevo sobre tecnologia com uma chance "não-zero" de falar besteira</p>
+      <p>
+        Estatisticamente falando, escrevo sobre tecnologia com uma chance
+        "não-zero" de falar besteira
+      </p>
     </header>
     <main>
-      <ContentList :query="query">
-        <template #default="{ list }">
-          <ul class="post-list">
-            <li v-for="post in list" :key="post._path">
-              <time :datetime="post.date">{{
-                `${new Date(post.date).toLocaleDateString('pt-BR', {
-                  year: 'numeric',
-                  month: 'numeric',
-                  day: 'numeric',
-                  timeZone: 'UTC'
-                })}`
-              }}</time>
-              <a :href="post._path?.replace('blog', 'blog/post')">{{ post.title }}</a>
-            </li>
-          </ul>
-        </template>
-        <template #not-found>
-          <p>Não tem nenhum post ainda!</p>
-        </template>
-      </ContentList>
+      <ul class="post-list" v-if="posts">
+        <li v-for="post in posts" :key="post.path">
+          <time :datetime="post.meta.date">{{
+            `${new Date(post.meta.date as string).toLocaleString('pt-BR', {
+              dateStyle: 'short',
+              timeStyle: 'short'
+            })}`
+          }}</time>
+          <a :href="post.path">{{ post.title }}</a>
+        </li>
+      </ul>
+
+      <p v-else>Não tem nenhum post ainda!</p>
+
       <BlogPagination
         :current-page="page"
         :page-size="size"
@@ -41,23 +38,16 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types';
-
-useHead({
+useSeoMeta({
   title: 'Blag'
-});
-
-definePageMeta({
-  name: 'Blog Home'
 });
 
 const page = ref(1);
 const size = ref(5);
-const count = await queryContent('blog').count();
 
 watch(size, () => (page.value = 1));
 
-const query = reactive<QueryBuilderParams>({
+const query = reactive({
   path: 'blog',
   skip: (page.value - 1) * size.value,
   limit: size.value,
@@ -68,5 +58,15 @@ watch([page, size], ([newPage, newSize]) => {
   query.skip = (newPage - 1) * newSize;
   query.limit = newSize;
 });
+
+const blogCollection = queryCollection('blog');
+const count = await blogCollection.count();
+const { data: posts } = await useAsyncData(
+  'posts',
+  blogCollection
+    .select('title', 'path', 'meta')
+    .skip(query.skip)
+    .limit(query.limit).all
+);
 </script>
 <style src="~/assets/css/blog.css" />

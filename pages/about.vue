@@ -5,7 +5,7 @@
       <h1>Sobre mim</h1>
     </header>
     <main>
-      <ContentDoc tag="article" />
+      <PageContent tag="article" />
     </main>
   </div>
 </template>

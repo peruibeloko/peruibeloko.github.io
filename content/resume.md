@@ -1,43 +1,46 @@
-Santos, SP
+::page
 
-[eumesmo@carlinhos.dev.br]
+## Resumo Profissional
 
-## Quem sou eu
-
-Arquiteto de Soluções e Tech Lead na [Mutant](https://mutant.com.br/), junto a Vivo.
-
-Desenvolvedor Fullstack Sênior especializado em tecnologias web, TypeScript, Node e Deno.
-
-Entusiasta de Programação Funcional, compiladores e design de linguagens de programação.
-
----
-
-## O que eu faço
+**Atuo no setor de tecnologia desde 2017**, passei por diversas áreas, e me especializo em **Desenvolvimento** e **Arquitetura**. Além de experiência prática, também tenho uma **base teórica sólida**, adquirida continuamente desde minha graduação.
 
 **Possuo boa desenvoltura interpessoal** - consigo me comunicar com facilidade e não tenho problemas em falar a público. Gosto de trabalhar em equipes e nunca me oponho a pedir e ceder ajuda caso necessário.
 
 **Sempre desejo aprender mais** e procurar melhorar a qualidade do que produzo independente da tarefa ou área de atuação num geral; Aplico **boas práticas**, **Design Patterns** e consigo **projetar novas soluções** usando uma variedade de técnicas.
 
-Tenho um **bom desempenho** em cargos de **liderança técnica** e tomada de decisões estratégicas na área técnica, tendo constante contato com POs, SMs, PMs e DMs para alinhamentos de prioridades, roadmaps a longo prazo, inception de projetos e gestão de equipes.
+Tenho um **bom desempenho** em cargos de **liderança técnica** e tomada de decisões estratégicas na área técnica, tendo constante contato com POs, SMs, PMs e DMs para alinhamentos de prioridades, roadmaps a longo prazo, inception de projetos e **gestão de equipes**.
 
-### Competências Técnicas
+## Competências Técnicas
 
-- Frontend - **JavaScript**, **TypeScript**, **HTML**, **CSS** - **React**, Vue, Svelte, Nuxt, Next
-- Backend - **Node**, Deno, Java - Express, Koa, Hono, Spring
+- Frontend - **JavaScript**, **TypeScript**, **HTML**, **CSS**, **React**, Vue, Svelte, Nuxt, Next
+- Backend - **Node**, Deno, Java, Express, Koa, Hono, Spring
 - Banco de Dados - **SQL**, **NoSQL**, MySQL, SQL Server, PostgreSQL, MongoDB
 - Cloud - **Deno Deploy**, **AWS**, GCP, Azure, Vercel, Heroku, Netlify
 - Arquitetura - **UML**, **Microsserviços**, C4, PlantUML, Documentação Técnica
 - Misc. - **JSON**, **REST**, **GraphQL**, **APIs**, **Testes Unitários**, Haskell, Rust, Erlang, PHP, C#, C, YAML, TOML
 
-### Formação Acadêmica
+## Formação Acadêmica
 
+- Cursando **Pós-graduação em Docência no Ensino Superior** - Senac
 - **Bacharel em Ciências da Computação** - Universidade Anhembi Morumbi
-- Cursos livres de **CSS**, **JavaScript** e **Vue** - Udemy
+- Cursos livres na Udemy
 - Modelagem 3D, Unreal Engine 4 e Design de Jogos Digitais - SAGA
 
----
+::
 
-## O que já fiz
+::page
+
+## Histórico Profissional
+
+### Mutant
+
+1. `Arquiteto de Software - AGO/24`
+
+- **Arquitetura de sistemas**, revisão de código, **liderança técnica**
+- **Acompanhamento** de desenvolvedores juniores
+- Decisões de **alto impacto** junto à área de negócios
+
+Minha atuação é majoritariamente voltada para a **Vivo**, tanto em sua frente B2C quanto B2B. Fui o **responsável técnico direto** por três equipes ao longo do meu tempo com o cliente, participando de **entregas estratégicas** e buscando **otimizações de processos** e tecnologias. Alto grau de envolvimento com negócios e **planejamento de roadmaps e prazos**.
 
 ### Quality Digital
 
@@ -69,6 +72,7 @@ Atuei num projeto de sistema bancário para um **banco especializado em consigna
 - Desenvolvimento de **Chatbots** e URAs usando **C#**, **.NET**, **XML** e **JavaScript**
 
 Atuava em **Professional Services**, realizava alterações em **banco de dados**, customização de ferramentas da empresa e **criação de novas soluções** para fornecer métricas do uso da nossa plataforma para nossos clientes. Atendia grandes empresas como **Atento Telemarketing**, VGX, **C6 Bank** e **99Taxi** e lidava diariamente com alterações de **alto impacto**.
+::
 
 ### IOMKT Digital
 

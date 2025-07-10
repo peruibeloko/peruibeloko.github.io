@@ -9,14 +9,22 @@ export default defineNuxtConfig({
   css: ['~/assets/css/theme.css'],
 
   content: {
-    highlight: {
-      theme: 'one-dark-pro',
-      preload: ['typescript', 'javascript']
+    renderer: {
+      anchorLinks: false
+    },
+    build: {
+      markdown: {
+        highlight: {
+          theme: 'gruvbox-dark-hard',
+          preload: ['typescript', 'javascript']
+        }
+      }
     }
   },
 
   app: {
     head: {
+      title: 'Carlinhos',
       link: [
         {
           rel: 'icon',
@@ -32,7 +40,5 @@ export default defineNuxtConfig({
         lang: 'pt-BR'
       }
     }
-  },
-
-  compatibilityDate: '2024-08-10'
+  }
 });
