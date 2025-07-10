@@ -7,7 +7,7 @@
       </section>
 
       <article>
-        <PageContent />
+        <ContentRenderer :value="data!" />
       </article>
     </main>
     <aside>
@@ -28,6 +28,11 @@
 useHead({
   title: 'Carlinhos'
 });
+
+const { data } = await useAsyncData(
+  'home',
+  queryCollection('content').path('/').first
+);
 </script>
 
 <style src="~/assets/css/home.css" />

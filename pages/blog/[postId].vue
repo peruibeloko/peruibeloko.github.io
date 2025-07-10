@@ -5,7 +5,7 @@
       <h1>{{ post!.title }}</h1>
     </header>
     <main>
-      <ContentRenderer tag="article" :value="post!" />
+      <ContentRenderer :value="post!" tag="article" />
     </main>
   </div>
 </template>
@@ -21,7 +21,7 @@ const { data: post } = await useAsyncData(
 
 useSeoMeta({
   title: post.value?.title,
-  author: 'Carlinhos',
+  author: 'Carlinhos'
 });
 
 const footnotes = ref({});

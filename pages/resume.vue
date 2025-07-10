@@ -14,7 +14,7 @@
       <ContentRenderer :value="objetivos!" />
     </header>
     <main>
-      <PageContent tag="article" />
+      <ContentRenderer :value="resume!" tag="article" />
     </main>
     <footer>
       <span
@@ -30,6 +30,11 @@
 const { data: objetivos } = await useAsyncData(
   'objetivos',
   queryCollection('content').path('/objetivos').first
+);
+
+const { data: resume } = await useAsyncData(
+  'resume',
+  queryCollection('content').path('/resume').first
 );
 
 useSeoMeta({

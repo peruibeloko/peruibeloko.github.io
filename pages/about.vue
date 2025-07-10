@@ -5,9 +5,16 @@
       <h1>Sobre mim</h1>
     </header>
     <main>
-      <PageContent tag="article" />
+      <ContentRenderer :value="data!" tag="article" />
     </main>
   </div>
 </template>
+
+<script setup lang="ts">
+const { data } = await useAsyncData(
+  'about',
+  queryCollection('content').path('/about').first
+);
+</script>
 
 <style src="~/assets/css/about.css" />
