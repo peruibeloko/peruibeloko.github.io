@@ -1,1 +1,0 @@
-import{_ as s,c as o,o as t,E as a}from"./C-0yA-2c.js";const c={},r={class:"page-break"};function n(e,_){return t(),o("div",r,[a(e.$slots,"default")])}const d=s(c,[["render",n]]);export{d as default};
