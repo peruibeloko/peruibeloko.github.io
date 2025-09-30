@@ -17,7 +17,7 @@
       />
       <nav>
         <NuxtLink to="/projects" class="projects">Projetos</NuxtLink>
-        <NuxtLink to="/blog" class="blog">Blog</NuxtLink>
+        <NuxtLink to="https://carlinhos.bearblog.dev" class="blog">Blog</NuxtLink>
         <NuxtLink to="/about" class="about">Sobre mim</NuxtLink>
       </nav>
     </aside>
