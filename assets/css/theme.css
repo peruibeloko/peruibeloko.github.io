@@ -1,5 +1,5 @@
 /** Theme */
-@import url('https://carlinhos.dev.br/shared/styles/theme.css');
+@import url('https://carlinhos.dev/shared/styles/theme.css');
 
 :root {
   --color__900: var(--bg_s);
