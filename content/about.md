@@ -17,9 +17,9 @@ Minha meta é atuar em projetos que apresentem desafios interessantes. Acho fasc
 
 Acha que eu seria um bom fit? Gostaria que eu integrasse sua equipe? Bora trocar uma ideia!
 
-- Meu email é [eumesmo@carlinhos.dev.br](mailto:eumesmo@carlinhos.dev.br)
-- Meu LinkedIn é [esse aqui](https://www.linkedin.com/in/carlospellizzari/)
-- Meu GitHub é [esse aqui](https://github.com/Peruibeloko)
+- Meu email é [falamemo@carlinhos.dev](mailto:falamemo@carlinhos.dev)
+- Meu LinkedIn é [carlospellizzari](https://www.linkedin.com/in/carlospellizzari/)
+- Meu GitHub é [@peruibeloko](https://github.com/peruibeloko)
 
 ## Eu sei falar com máquinas
 
