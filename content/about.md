@@ -3,12 +3,6 @@ title: Sobre mim
 description: Essa página é um descritivo do meu conhecimento técnico e interpessoal
 ---
 
-Aqui eu falo sobre mim de maneira mais descontraída.
-
-Se quiser algo mais parecido com um currículo, dá uma olhada [aqui](/resume)
-
----
-
 Meu nome é **Carlos Mendonça (Carlinhos)**, nasci em Maio de 1999 em São Paulo, e moro na Mooca.
 
 Minhas experiências profissionais variam de **Suporte Técnico** a **Arquitetura de Sistemas** e me especializo na área de **Desenvolvimento de Software**.
